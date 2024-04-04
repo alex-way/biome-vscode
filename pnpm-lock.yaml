@@ -12,8 +12,8 @@ dependencies:
     specifier: ^7.5.4
     version: 7.5.4
   undici:
-    specifier: ^5.27.2
-    version: 5.27.2
+    specifier: ^5.28.4
+    version: 5.28.4
   vscode-languageclient:
     specifier: ^8.1.0
     version: 8.1.0
@@ -637,8 +637,8 @@ packages:
       pend: 1.2.0
     dev: true
 
-  /follow-redirects@1.15.3:
-    resolution: {integrity: sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==}
+  /follow-redirects@1.15.6:
+    resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -1029,7 +1029,7 @@ packages:
     dependencies:
       '@vscode/vsce': 2.22.0
       commander: 6.2.1
-      follow-redirects: 1.15.3
+      follow-redirects: 1.15.6
       is-ci: 2.0.0
       leven: 3.1.0
       semver: 7.5.4
@@ -1292,8 +1292,8 @@ packages:
     resolution: {integrity: sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==}
     dev: true
 
-  /undici@5.27.2:
-    resolution: {integrity: sha512-iS857PdOEy/y3wlM3yRp+6SNQQ6xU0mmZcwRSriqk+et/cwWAtwmIGf6WkoDN2EK/AMdCO/dfXzIwi+rFMrjjQ==}
+  /undici@5.28.4:
+    resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
